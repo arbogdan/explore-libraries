@@ -7,7 +7,11 @@
 ## let's confirm the second element is, in fact, the default library
 .Library
 library(fs)
+<<<<<<< HEAD
 library(lattice)
+=======
+library(tidyverse)
+>>>>>>> ef62827d0064ddf6ae1f9241789b79bc7504f4bf
 path_real(.Library)
 
 #' Installed packages
