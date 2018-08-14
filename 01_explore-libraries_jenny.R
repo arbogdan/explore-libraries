@@ -7,6 +7,7 @@
 ## let's confirm the second element is, in fact, the default library
 .Library
 library(fs)
+library(tidyverse)
 path_real(.Library)
 
 #' Installed packages
